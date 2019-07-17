@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="aggregate_till_date" label="Aggregate Till Date" language="en" table="x_339999_teamplace_job_applicants">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>aggregate_till_date</element>
+            <help/>
+            <hint/>
+            <label>Aggregate Till Date</label>
+            <language>en</language>
+            <name>x_339999_teamplace_job_applicants</name>
+            <plural>Aggregate Till Dates</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-07-02 11:00:33</sys_created_on>
+            <sys_id>c01e9f0bdb92330064bdbd51399619ae</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Aggregate Till Date</sys_name>
+            <sys_package display_value="TeamPlacement" source="x_339999_teamplace">12953acbdb12330064bdbd51399619bd</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="TeamPlacement">12953acbdb12330064bdbd51399619bd</sys_scope>
+            <sys_update_name>sys_documentation_x_339999_teamplace_job_applicants_aggregate_till_date_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-07-02 11:00:33</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

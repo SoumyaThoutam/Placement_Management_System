@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Job Applicants" max_length="40" name="x_339999_teamplace_job_applicants" type="collection">
+        <element label="Aggregate Till Date" max_length="255" name="aggregate_till_date" type="string_full_utf8"/>
+        <element label="Company Name" max_length="40" name="company_name" type="string"/>
+        <element label="Email Id" max_length="40" name="email_id" type="string"/>
+        <element label="Phone Number" max_length="40" name="phone_number" type="phone_number_e164"/>
+        <element label="Student ID" max_length="40" name="student_id" type="string"/>
+    </element>
+</database>

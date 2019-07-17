@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Job_Information" max_length="40" name="x_339999_teamplace_job_information" type="collection">
+        <element label="Addition Skills" max_length="8000" name="addition_skills" type="string"/>
+        <element label="Aggregate Required" mandatory="true" max_length="40" name="aggregate_required" type="string"/>
+        <element label="Company Id" mandatory="true" max_length="40" name="company_id" type="string"/>
+        <element label="Company Name" mandatory="true" max_length="40" name="company_name" type="string"/>
+        <element label="No. of Backlogs" mandatory="true" max_length="40" name="no_of_backlogs" type="string"/>
+        <element choice="1" display="true" label="Skills  Required" mandatory="true" max_length="4000" name="skills_required" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="C" sequence="0" value="c"/>
+                <element inactive_on_update="false" label="C#" sequence="1" value="C#"/>
+                <element inactive_on_update="false" label="C++" sequence="2" value="C++"/>
+                <element inactive_on_update="false" label="DataStructure" sequence="3" value="dataStructures"/>
+                <element inactive_on_update="false" label="Html, CSS" sequence="4" value="HTML,css"/>
+                <element inactive_on_update="false" label="Java" sequence="5" value="java"/>
+                <element inactive_on_update="false" label="JavaScript" sequence="6" value="javascript"/>
+                <element inactive_on_update="false" label="Python 3" sequence="7" value="python3"/>
+            </choice>
+        </element>
+    </element>
+</database>

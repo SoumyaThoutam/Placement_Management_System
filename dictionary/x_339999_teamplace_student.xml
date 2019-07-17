@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Student" max_length="40" name="x_339999_teamplace_student" type="collection">
+        <element label="Aggregate Till Date" mandatory="true" max_length="15" name="aggregate_till_date" type="string_full_utf8"/>
+        <element label="Date Of Birth" mandatory="true" max_length="40" name="date_of_birth" type="glide_date"/>
+        <element choice="1" label="Department" mandatory="true" max_length="40" name="department" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="CSE" sequence="0" value="cse"/>
+                <element inactive_on_update="false" label="IT" sequence="1" value="it"/>
+                <element inactive_on_update="false" label="ECE" sequence="2" value="ece"/>
+                <element inactive_on_update="false" label="EEE" sequence="3" value="eee"/>
+            </choice>
+        </element>
+        <element label="Email Id" mandatory="true" max_length="40" name="email_id" type="string"/>
+        <element label="First Name" mandatory="true" max_length="40" name="first_name" type="string"/>
+        <element label="Last Name" mandatory="true" max_length="40" name="last_name" type="string"/>
+        <element label="Memos" max_length="40" name="memos" type="file_attachment"/>
+        <element label="Middle Name" max_length="40" name="middle_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="No. of Backlogs" mandatory="true" max_length="40" name="no_of_backlogs" type="string"/>
+        <element label="Phone Number" mandatory="true" max_length="40" name="phone_number" type="phone_number_e164"/>
+        <element label="Resume" max_length="40" name="resume" type="file_attachment"/>
+        <element label="Student_ID" mandatory="true" max_length="40" name="student_id" type="string"/>
+        <element choice="1" label="Year" mandatory="true" max_length="40" name="year" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Sem I-I" sequence="0" value="sem i-i"/>
+                <element inactive_on_update="false" label="Sem I-II" sequence="1" value="sem i-ii"/>
+                <element inactive_on_update="false" label="Sem II-I" sequence="2" value="sem ii-i"/>
+                <element inactive_on_update="false" label="Sem II-II" sequence="3" value="sem ii-ii"/>
+                <element inactive_on_update="false" label="Sem III-I" sequence="4" value="sem iii-i"/>
+                <element inactive_on_update="false" label="Sem III-II" sequence="5" value="sem iii-ii"/>
+                <element inactive_on_update="false" label="Sem IV-I" sequence="6" value="sem iv-i"/>
+                <element inactive_on_update="false" label="Sem IV-II" sequence="7" value="sem iv-ii"/>
+            </choice>
+        </element>
+    </element>
+</database>
